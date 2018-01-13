@@ -15,6 +15,7 @@
 		7D9901C92009D0C3007B4724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9901C72009D0C3007B4724 /* LaunchScreen.storyboard */; };
 		7D9901D42009D0C3007B4724 /* ARkitdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9901D32009D0C3007B4724 /* ARkitdemoTests.swift */; };
 		7D9901DF2009D0C3007B4724 /* ARkitdemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9901DE2009D0C3007B4724 /* ARkitdemoUITests.swift */; };
+		7D9901F22009DE28007B4724 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D9901F12009DE28007B4724 /* brick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7D9901DA2009D0C3007B4724 /* ARkitdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARkitdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9901DE2009D0C3007B4724 /* ARkitdemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARkitdemoUITests.swift; sourceTree = "<group>"; };
 		7D9901E02009D0C3007B4724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9901F12009DE28007B4724 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brick.png; path = ../../../Downloads/brick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				7D9901C02009D0C3007B4724 /* ViewController.swift */,
 				7D9901C22009D0C3007B4724 /* Main.storyboard */,
 				7D9901C52009D0C3007B4724 /* Assets.xcassets */,
+				7D9901F12009DE28007B4724 /* brick.png */,
 				7D9901C72009D0C3007B4724 /* LaunchScreen.storyboard */,
 				7D9901CA2009D0C3007B4724 /* Info.plist */,
 			);
@@ -239,6 +242,7 @@
 				7D9901C92009D0C3007B4724 /* LaunchScreen.storyboard in Resources */,
 				7D9901C62009D0C3007B4724 /* Assets.xcassets in Resources */,
 				7D9901C42009D0C3007B4724 /* Main.storyboard in Resources */,
+				7D9901F22009DE28007B4724 /* brick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJSCBB9228;
 				INFOPLIST_FILE = ARkitdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Obj.ARkitdemo;
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJSCBB9228;
 				INFOPLIST_FILE = ARkitdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Obj.ARkitdemo;
